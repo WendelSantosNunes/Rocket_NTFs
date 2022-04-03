@@ -1,0 +1,31 @@
+header{
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    flex-wrap: wrap;
+
+    padding: 3.5625rem 0 5.625rem 0;
+}
+
+header .information {
+    width: 30%;
+    
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+
+    font-size: 1.125rem
+}
+
+header .connect {
+    width: 10%;
+
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+
+    background-color: #fff;
+    color: var(--card-color);
+    padding: 0.875rem;
+    border-radius: 0.625rem;
+}
