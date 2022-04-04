@@ -45,7 +45,7 @@ export function Home(){
                             <p>Artes</p>
                         </div>
                         <div>
-                            <strong>200K+</strong>
+                            <strong>200+</strong>
                             <p>Vendas</p>
                         </div>
                         <div>
@@ -53,9 +53,8 @@ export function Home(){
                             <p>Artistas</p>
                         </div>
                     </div>
-                    <hr />
-                    <div>
-                        <div className="products-inf">
+                    <div className="products-inf">
+                        <div className="inf">
                             <div>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Congue malesuada amet pretium lacus. Id <a href="#">potenti diam</a> et cras odio viverra. Amet, velit ut hac sit. Enim ultricies mauris mattis nunc semper.</p>
                                 <a href="#">Lorem</a>
@@ -65,8 +64,60 @@ export function Home(){
                                 <a href="#">Lorem</a>
                             </div>
                         </div>
-                        <div className="banner">
-                            <img src="../../assets/banner2.png" alt="Banner" />
+                        <img src="../../assets/banner2.png" alt="Banner" />
+                    </div>
+                </section>
+                <section className="popular container">
+                    <h2><span>Populares</span> da semana</h2>
+                    <div className="artists-popular">
+                        <div>
+                            <div>
+                                <div>
+                                    <strong>Astrounauta 1</strong>
+                                    <img src="../../assets/arrow-white.svg" alt="" />
+                                </div>
+                                <div>
+                                    <p>Mayk Brito</p>
+                                    <p>1.50 RKT</p>
+                                </div>
+                                <img src="../../assets/astronauta-1.png" alt="" />
+                            </div>
+                            <div>
+                                <div>
+                                    <strong>Astrounauta 3</strong>
+                                    <img src="../../assets/arrow-white.svg" alt="" />
+                                </div>
+                                <div>
+                                    <p>João Inácio (Biro)o</p>
+                                    <p>3.75 RKT</p>
+                                </div>
+                                <img src="../../assets/astronauta-2.png" alt="" />
+                            </div>
+                        </div>
+                        <hr />
+                        <div>
+                            <div>
+                                <div>
+                                    <strong>Astrounauta 2</strong>
+                                    <img src="../../assets/arrow-white.svg" alt="" />
+                                </div>
+                                <div>
+                                    <p>Jakeliny Gracielly</p>
+                                    <p>2.0 RKT</p>
+                                </div>
+                                <img src="../../assets/astronauta-2.png" alt="" />
+                            </div>
+                            <div>
+                                <div>
+                                    <strong>Astrounauta 4</strong>
+                                    <img src="../../assets/arrow-white.svg" alt="" />
+                                </div>
+                                <div>
+                                    <p>Tamires Santos</p>
+                                    <p>4.30 RKT</p>
+                                </div>
+                                <img src="../../assets/astronauta-4.png" alt="" />
+                            </div>
                         </div>
                     </div>
                 </section>

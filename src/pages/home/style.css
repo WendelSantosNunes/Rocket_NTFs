@@ -58,35 +58,85 @@
     border: 0.0625rem solid #fff;
 }
 
+/* Produtos */
+
 .products {
     display: grid;
-    grid-template-columns: 1fr 0.125rem 4fr;
+    grid-template-columns: 1fr  4fr;
+
+    border-bottom: 0.0625rem solid #5A5757;
 }
 
 .products .results{
     margin-top: 4.375rem;
 }
 
-.products .products-inf{
+.products .results div{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+
+    text-align: center;
+
+    margin-top: 4.375rem;
+}
+
+.products .results div strong{
+    font-size: 3.125rem;
+}
+
+.products .results div p{
+    font-size: 1.25rem;
+    color: var(--subtitle-color)
+}
+
+.products-inf {
+    border-left: 0.0625rem solid #5A5757;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.products .inf{
     margin: 4.375rem 0;
     display: flex;
     justify-content: space-around;
 }
 
-/* Está dando errado */
-/* .products hr {
-    background-color: blue;
-    color: blue;;
-} */
-
-.products .products-inf div{
+.products .inf div{
     max-width: 27.1875rem;
 }
 
-.products .products-inf p{
+.products .inf div p a{
+    color: var(--color-logo);
+}
+
+
+.products .inf p{
     margin-bottom: 3.9375rem;
 }
 
-.products .banner img{
+.products  img{
     max-width: 100%;
+}
+
+/* Popular */
+
+.popular{
+    margin-top: 9.375rem
+}
+
+.popular h2{
+    font-size: 3.125rem;
+    font-weight: 43.75rem;
+
+    margin-bottom: 9.875rem;
+}
+
+.popular h2 span {
+    color: var(--color-logo);
+}
+
+.artists-popular {
+    display: flex;
 }
