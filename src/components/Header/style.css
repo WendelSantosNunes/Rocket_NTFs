@@ -1,6 +1,6 @@
 header{
     display: flex;
-    justify-content:space-around;
+    justify-content:space-between;
     align-items:center;
     flex-wrap: wrap;
 
@@ -8,7 +8,7 @@ header{
 }
 
 header .information {
-    width: 30%;
+    width: 21.3125rem;
     
     display: flex;
     justify-content:space-around;
@@ -18,7 +18,7 @@ header .information {
 }
 
 header .connect {
-    width: 10%;
+    max-width: 14.375rem;
 
     display: flex;
     justify-content:space-around;
@@ -28,4 +28,6 @@ header .connect {
     color: var(--card-color);
     padding: 0.875rem;
     border-radius: 0.625rem;
+
+    font-weight: bold;
 }

@@ -1,3 +1,92 @@
 .background_fundo{
     background-image: url(../../../assets/background.png)
 }
+
+.container{
+    max-width: 79.8125rem;
+    margin: 0 auto;
+}
+
+.artists-inf {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    padding-bottom: 6.25rem;
+}
+
+.artists-inf div{
+    max-width: 25.0625rem;
+    display: flex;
+    justify-content: center;
+}
+
+.artists-inf .artists{
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.artists-inf .artists > div{
+    justify-content: flex-start;
+}
+
+.artists-inf .description{
+    font-size: 3.125rem;
+    font-weight: bold;
+    max-width: 37.25rem;
+}
+
+.artists-inf .inf{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.artists-inf .badge img{
+    max-width: 12.5rem;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+
+    padding-bottom: 0.625rem;
+}
+
+.gallery img{
+    border: 0.0625rem solid #fff;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: 1fr 0.125rem 4fr;
+}
+
+.products .results{
+    margin-top: 4.375rem;
+}
+
+.products .products-inf{
+    margin: 4.375rem 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Está dando errado */
+/* .products hr {
+    background-color: blue;
+    color: blue;;
+} */
+
+.products .products-inf div{
+    max-width: 27.1875rem;
+}
+
+.products .products-inf p{
+    margin-bottom: 3.9375rem;
+}
+
+.products .banner img{
+    max-width: 100%;
+}
