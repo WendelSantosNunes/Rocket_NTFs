@@ -1,0 +1,100 @@
+footer{
+    background-color: #252525;
+}
+
+footer .back-to-top{
+    display: flex;
+    justify-content: space-between;
+    padding: 5.125rem 0 3.75rem 0;
+}
+
+footer .back-to-top div{
+    background-color: var(--color-logo);
+    padding: 1.8125rem;
+}
+
+footer .line{
+    border-top: 1px solid var(--subtitle-color);
+    border-bottom: 1px solid var(--subtitle-color);
+}
+
+footer .contact{
+    display: grid;
+    grid-template-columns: 1.2fr 2fr;
+}
+
+footer .contact .form{
+    border-right: 1px solid var(--subtitle-color);
+    padding: 4.1875rem 0  3.3125rem 0;
+}
+
+footer .contact .form p{
+    font-size: 1.875rem;
+}
+
+footer .contact .form span{
+    color: var(--color-logo);
+}
+
+footer .contact form {
+    padding-top: 1.5625rem;
+}
+
+footer .contact form input{
+    padding: 1.25rem;
+    border-color: var(--color-input);
+    font-size: 1.25rem;
+}
+
+footer .contact form input:nth-child(1){
+    padding: 1.25rem;
+    background-color: var(--color-input);
+    color: #fff;
+}
+
+footer .contact form input:nth-child(2){
+    font-weight: bold;
+}
+
+footer .company-information{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    font-size: 1.25rem;
+}
+
+footer .company-information div{
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+footer .company-information a{
+    display: block;
+    text-decoration: none;
+    color: var(--subtitle-color);
+
+    margin-top: 0.4375rem;
+}
+
+footer .networks{
+    display: flex;
+    justify-content: space-between;
+
+    padding: 5rem 0 3.75rem 0;
+}
+
+footer .networks a{
+   text-decoration: none;
+   color: var(--subtitle-color);
+   font-size: 1.25rem;
+}
+
+footer .networks div{
+    width: 16.875rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+

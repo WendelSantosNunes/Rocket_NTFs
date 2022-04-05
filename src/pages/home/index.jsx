@@ -1,6 +1,7 @@
 import './style.css'
 
 import {Header} from '../../components/Header'
+import {Footer} from '../../components/Footer'
 
 export function Home(){
     return (
@@ -71,7 +72,7 @@ export function Home(){
                     <h2><span>Populares</span> da semana</h2>
                     <div className="artists-popular">
                         <div>
-                            <div>
+                            <div className="selected-artists artists">
                                 <div>
                                     <strong>Astrounauta 1</strong>
                                     <img src="../../assets/arrow-white.svg" alt="" />
@@ -82,7 +83,7 @@ export function Home(){
                                 </div>
                                 <img src="../../assets/astronauta-1.png" alt="" />
                             </div>
-                            <div>
+                            <div className="artists">
                                 <div>
                                     <strong>Astrounauta 3</strong>
                                     <img src="../../assets/arrow-white.svg" alt="" />
@@ -96,7 +97,7 @@ export function Home(){
                         </div>
                         <hr />
                         <div>
-                            <div>
+                            <div className="selected-artists artists">
                                 <div>
                                     <strong>Astrounauta 2</strong>
                                     <img src="../../assets/arrow-white.svg" alt="" />
@@ -107,7 +108,7 @@ export function Home(){
                                 </div>
                                 <img src="../../assets/astronauta-2.png" alt="" />
                             </div>
-                            <div>
+                            <div className="artists">
                                 <div>
                                     <strong>Astrounauta 4</strong>
                                     <img src="../../assets/arrow-white.svg" alt="" />
@@ -121,7 +122,59 @@ export function Home(){
                         </div>
                     </div>
                 </section>
+                <section className="best-artists container">
+                    <h2><span>Melhores</span> artistas</h2>
+                    <div className="best-artists-collection">
+                        <div className="best-artists-inf">
+                            <img src="../../assets/artista-1.png" alt="artista 1" />
+                            <div>
+                                <p>Mayk Brito</p>
+                                <span>80 Fotografias</span>
+                            </div>
+                        </div>
+                        <div className="best-artists-inf">
+                            <img src="../../assets/artista-2.png" alt="artista 2" />
+                            <div>
+                                <p>Jakeliny G.</p>
+                                <span>99 Fotografias</span>
+                            </div>
+                        </div>
+                        <div className="best-artists-inf">
+                            <img src="../../assets/artista-3.png" alt="artista 3" />
+                            <div>
+                                <p>João I. (Biro)</p>
+                                <span>50 Fotografias</span>
+                            </div>                          
+                        </div>
+                        <div className="best-artists-inf">
+                            <img src="../../assets/artista-4.png" alt="artista 4" />
+                            <div>
+                                <p>Tamires Santos</p>
+                                <span>43 Fotografias</span>
+                            </div>
+                        </div>
+                        <div className="best-artists-inf">
+                            <img src="../../assets/artista-5.png" alt="artista 5" />
+                            <div>
+                                <p>Ana Silva</p>
+                                <span>28 Fotografias</span>
+                            </div> 
+                        </div>
+                        <div className="best-artists-inf">
+                            <img src="../../assets/artista-6.png" alt="artista 6" />
+                            <div>
+                                <p>Diego F.</p>
+                                <span>20 Fotografias</span>
+                            </div>                          
+                        </div>
+                    </div>
+                    <div>
+                        <a href="#">Ver todos os artistas</a>
+                        <img src="../../assets/arrow-orange.svg" alt="Arrow orange" />
+                    </div>
+                </section>
             </main>
+            <Footer/>
         </>
     )
 }
