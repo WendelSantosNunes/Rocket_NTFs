@@ -35,3 +35,11 @@ header .connect {
 
     font-weight: bold;
 }
+
+/* Resposividade */
+
+@media (max-width:82.1875rem){
+    body{
+        background-color: red;
+    }
+}

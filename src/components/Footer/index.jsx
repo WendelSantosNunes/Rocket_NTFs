@@ -1,12 +1,19 @@
 import './style.css'
 
+import LogoImg from '../../assets/logo.svg'
+import ArrowBlackImg from '../../assets/arrow-black.svg'
+import InstragramImg from '../../assets/instagram.svg'
+import YoutubeImg from '../../assets/youtube.svg'
+import TwitterImg from '../../assets/twitter.svg'
+import LogoMetaImg from '../../assets/logo_MetaMask.svg'
+
 export function Footer(){
     return (
         <footer>
             <div className="container back-to-top">
-                <img src="../../assets/logo.svg" alt="Logo" />
+                <img src={LogoImg} alt="Logo" />
                 <div>
-                    <img src="../../assets/arrow-black.svg" alt="Arrow Black" />
+                    <img src={ArrowBlackImg} alt="Arrow Black" />
                 </div>
             </div>
             <div className="line">
@@ -46,10 +53,10 @@ export function Footer(){
             <div className="networks container">
                 <a href="#">www.rocketseat.com.br</a>
                 <div>
-                    <a href="#"><img src="../../assets/instagram.svg" alt="instagram" /></a>
-                    <a href="#"><img src="../../assets/youtube.svg" alt="youtube" /></a>
-                    <a href="#"><img src="../../assets/twitter.svg" alt="twitter" /></a>
-                    <a href="#"><img src="../../assets/logo_MetaMask.svg" alt="logo_MetaMask" /></a>
+                    <a href="#"><img src={InstragramImg} alt="instagram" /></a>
+                    <a href="#"><img src={YoutubeImg} alt="youtube" /></a>
+                    <a href="#"><img src={TwitterImg} alt="twitter" /></a>
+                    <a href="#"><img src={LogoMetaImg} alt="logo_MetaMask" /></a>
                 </div>
             </div>
         </footer>
