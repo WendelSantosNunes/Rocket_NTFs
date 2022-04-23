@@ -8,9 +8,13 @@
 }
 
 .artists-inf {
-    display: flex;
+    /* display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
+    flex-wrap: wrap; */
+
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 20px;
 
     padding-bottom: 6.25rem;
 }
@@ -138,6 +142,10 @@
     color: var(--color-logo);
 }
 
+.popular .arrowWrite{
+    max-width: 1.75rem;
+}
+
 .artists-popular {
     display: flex;
     justify-content: space-between;
@@ -180,6 +188,10 @@
 }
 
 /* best artists */
+
+.bestArtistsImg{
+    max-width: 6.25rem;
+}
 
 .best-artists h2{
     text-align: center;
@@ -244,3 +256,40 @@
     padding-right: 0.8125rem;
     text-decoration: none;
 }
+
+#arrowOrange{
+    max-width: 1.0625rem;
+}
+
+/* Resposividade */
+
+@media (max-width:82.1875rem){
+    .gallery {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .artists-popular {
+        justify-content: space-around;
+    }
+}
+
+@media (max-width:73.75rem){
+   .artists-inf {
+        display: flex;
+        flex-wrap: wrap;   
+        justify-content: center;
+        justify-items: center;
+
+    }
+
+    /* .products-inf img{
+       
+    } */
+}
+/* 
+@media(max-width:104.0625rem){
+    .products-inf img{
+        position: absolute;
+        background-color: red;
+    }
+} */

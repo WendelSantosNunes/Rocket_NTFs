@@ -99,7 +99,7 @@ export function Home(){
                             <div className="selected-artists artists">
                                 <div>
                                     <strong>Astrounauta 1</strong>
-                                    <img src={ArrowWhite} alt="Arrow white" />
+                                    <img src={ArrowWhite} alt="Arrow white" className='arrowWrite'/>
                                 </div>
                                 <div>
                                     <p>Mayk Brito</p>
@@ -110,13 +110,13 @@ export function Home(){
                             <div className="artists">
                                 <div>
                                     <strong>Astrounauta 3</strong>
-                                    <img src={ArrowWhite} alt="Arrow white" />
+                                    <img src={ArrowWhite} alt="Arrow white" className='arrowWrite'/>
                                 </div>
                                 <div>
                                     <p>João Inácio (Biro)o</p>
                                     <p>3.75 RKT</p>
                                 </div>
-                                <img src={Astronauta2} alt="Astronauta 3" />
+                                <img src={Astronauta2} alt="Astronauta 3"/>
                             </div>
                         </div>
                         <hr />
@@ -124,7 +124,7 @@ export function Home(){
                             <div className="selected-artists artists">
                                 <div>
                                     <strong>Astrounauta 2</strong>
-                                    <img src={ArrowWhite} alt="Arrow white" />
+                                    <img src={ArrowWhite} alt="Arrow white" className='arrowWrite'/>
                                 </div>
                                 <div>
                                     <p>Jakeliny Gracielly</p>
@@ -135,7 +135,7 @@ export function Home(){
                             <div className="artists">
                                 <div>
                                     <strong>Astrounauta 4</strong>
-                                    <img src={ArrowWhite} alt="Arrow white" />
+                                    <img src={ArrowWhite} alt="Arrow white" className='arrowWrite'/>
                                 </div>
                                 <div>
                                     <p>Tamires Santos</p>
@@ -150,42 +150,42 @@ export function Home(){
                     <h2><span>Melhores</span> artistas</h2>
                     <div className="best-artists-collection">
                         <div className="best-artists-inf">
-                            <img src={Artista1} alt="artista 1" />
+                            <img src={Artista1} alt="artista 1" className="bestArtistsImg"/>
                             <div>
                                 <p>Mayk Brito</p>
                                 <span>80 Fotografias</span>
                             </div>
                         </div>
                         <div className="best-artists-inf">
-                            <img src={Artista2} alt="artista 2" />
+                            <img src={Artista2} alt="artista 2" className="bestArtistsImg"/>
                             <div>
                                 <p>Jakeliny G.</p>
                                 <span>99 Fotografias</span>
                             </div>
                         </div>
                         <div className="best-artists-inf">
-                            <img src={Artista3} alt="artista 3" />
+                            <img src={Artista3} alt="artista 3" className="bestArtistsImg"/>
                             <div>
                                 <p>João I. (Biro)</p>
                                 <span>50 Fotografias</span>
                             </div>                          
                         </div>
                         <div className="best-artists-inf">
-                            <img src={Artista4} alt="artista 4" />
+                            <img src={Artista4} alt="artista 4" className="bestArtistsImg"/>
                             <div>
                                 <p>Tamires Santos</p>
                                 <span>43 Fotografias</span>
                             </div>
                         </div>
                         <div className="best-artists-inf">
-                            <img src={Artista5} alt="artista 5" />
+                            <img src={Artista5} alt="artista 5" className="bestArtistsImg"/>
                             <div>
                                 <p>Ana Silva</p>
                                 <span>28 Fotografias</span>
                             </div> 
                         </div>
                         <div className="best-artists-inf">
-                            <img src={Artista6} alt="artista 6" />
+                            <img src={Artista6} alt="artista 6" className="bestArtistsImg"/>
                             <div>
                                 <p>Diego F.</p>
                                 <span>20 Fotografias</span>
@@ -194,7 +194,7 @@ export function Home(){
                     </div>
                     <div>
                         <a href="#">Ver todos os artistas</a>
-                        <img src={ArrowOrange} alt="Arrow orange" />
+                        <img src={ArrowOrange} alt="Arrow orange" id='arrowOrange'/>
                     </div>
                 </section>
             </main>

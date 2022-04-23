@@ -11,7 +11,7 @@ export function Footer(){
     return (
         <footer>
             <div className="container back-to-top">
-                <img src={LogoImg} alt="Logo" />
+                <img src={LogoImg} alt="Logo" className="logo"/>
                 <div>
                     <img src={ArrowBlackImg} alt="Arrow Black" />
                 </div>

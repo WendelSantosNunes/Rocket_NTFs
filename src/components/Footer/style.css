@@ -2,6 +2,10 @@ footer{
     background-color: #252525;
 }
 
+footer .logo{
+    max-width: 16.4375rem;
+}
+
 footer .back-to-top{
     display: flex;
     justify-content: space-between;
@@ -81,6 +85,7 @@ footer .company-information a{
 footer .networks{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 
     padding: 5rem 0 3.75rem 0;
 }
@@ -97,4 +102,19 @@ footer .networks div{
     justify-content: space-between;
 }
 
+/* Resposividade */
 
+@media (max-width:73.75rem){
+    footer .back-to-top{
+        justify-content: space-around;
+    }
+
+    form{
+        display:flex;
+        flex-direction: column
+    }
+
+    footer .networks{
+        justify-content: space-around;
+    }
+}

@@ -7,6 +7,14 @@ header{
     padding: 3.5625rem 0 5.625rem 0;
 }
 
+header .logo{
+    max-width: 16.4375rem;
+}
+
+header .logo_MetaMask{
+    max-width: 1.875rem;
+}
+
 header a{
     text-decoration: none;
 }
@@ -39,7 +47,7 @@ header .connect {
 /* Resposividade */
 
 @media (max-width:82.1875rem){
-    body{
-        background-color: red;
+    header{
+        justify-content:space-around;
     }
 }
